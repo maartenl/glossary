@@ -1,0 +1,899 @@
+Collection of abbreviations and things that I've come across in my daily work. Just as a reminder to myself.
+<a name="top"></a><p>
+<a href="#A">A</a> - <a href="#B">B</a> - <a href="#C">C</a> - <a href="#D">D</a> - <a href="#E">E</a> - <a href="#F">F</a> - <a href="#G">G</a> - <a href="#H">H</a> - <a href="#I">I</a> - <a href="#J">J</a> - <a href="#K">K</a> - <a href="#L">L</a> - <a href="#M">M</a> - <a href="#N">N</a> - <a href="#O">O</a> - <a href="#P">P</a> - <a href="#Q">Q</a> - <a href="#R">R</a> - <a href="#S">S</a> - <a href="#T">T</a> - <a href="#U">U</a> - <a href="#V">V</a> - <a href="#W">W</a> - <a href="#X">X</a> - <a href="#Y">Y</a> - <a href="#Z">Z</a></p>
+<dl>
+<dt>2PC</dt>
+<dd>two-phase commit </dd>
+<dt>5S</dt>
+<dd>a set of principals, focussing on maintenance instead of production, one of the major pillars of TPM. <ul>
+<li>Seiri (sort), know where things are, suitable naming</li>
+<li>Seiton (systematize), stuff where you expect to find it</li>
+<li>Seiso (shine), clean crap up</li>
+<li>Seiketsu (standardization)</li>
+<li>Shutsuke (self-discipline), follow guidelines, reflex on your work, be willing to change</li>
+</ul>
+</dd>
+<dt><a href="#top" name="A">A</a></dt>
+<dd></dd>
+<dt>AAT</dt>
+<dd>Agile Acceptance Testing</dd>
+<dt>ACID</dt>
+<dd>Atomicity, Consistency, Isolation, Durability. Are transactional properties of database management systems.</dd>
+<dt>ADM</dt>
+<dd>Anemic Domain Model, considered an anti-pattern by some, (data) objects contain state and setters and getters, all logic implemented in higher layer ("Service" layer). See RDM and Procedural programming. See also <a href="http://martinfowler.com/bliki/AnemicDomainModel.html">here</a>.</dd>
+<dt>AES</dt>
+<dd>Advanced Encryption Standard, uses a a symmetric-key algorithm. Seems to be a good current standard (19/01/2014).</dd>
+<dt>aggregation</dt>
+<dd>ordinary composition, but it does not imply ownership. For example duck-pond.</dd>
+<dt>AIM</dt>
+<dd>Access and Identity Management, see idM.</dd>
+<dt>Ajax</dt>
+<dd>Asynchronous JAvascript and XML, though people prefer JSON to XML nowadays. JavaScript (on client) calls server resource using XMLHttpRequest, uses the response to dynamically alter the dom. Also AJAX.</dd>
+<dt>Allman, Eric</dt>
+<dd>I prefer his curly bracing and indentation style, that's all</dd>
+<dt>ANSI</dt>
+<dd>American National Standards Institute</dd>
+<dt>AOP</dt>
+<dd>Aspect Oriented Programming, handles cross-cutting concerns preventing boiler-plate code. A good example are Java Annotations. See also <a href="http://en.wikipedia.org/wiki/AspectJ">AspectJ</a>.</dd>
+<dt>ARM</dt>
+<dd>Automatic Resource Management, official name for the JDK7 resource declaration in the try of a try-catch-finally block that makes the resource automatically close neatly upon completion or errors.</dd>
+<dt>API</dt>
+<dd>Application Programming Interface</dd>
+<dt>ASCII</dt>
+<dd>American Standard Code for Information Interchange, a coded character set (e.g., hexadecimal value 41 is assigned to “A”). </dd>
+<dt>ASN.1</dt>
+<dd>Abstract Syntax Notation One, a standard and flexible notation that describes rules and structures for representing, encoding, transmitting, and decoding data</dd>
+<dt>AST</dt>
+<dd>Abstract syntax tree, a tree representation of the abstract syntactic structure of source code written in a programming language, see concrete syntax trees (also called parse tree) for the more general version.</dd>
+<dt>AST</dt>
+<dd>Andrew Stuart (Andy) Tanenbaum, American computer scientist and professor emeritus, author of MINIX. His debate with Linus Torvalds is famous. See MINIX and Linus Torvalds.</dd>
+<dt>ATDD</dt>
+<dd>Acceptance Test-Driven Development, also called BDD, SBE, AAT, ST. See SBE for a more general term.</dd>
+<dt><a href="#top" name="B">B</a></dt>
+<dd></dd>
+<dt>B2B </dt>
+<dd>business to business</dd>
+<dt>backwards compatible</dt>
+<dd>it means the new <i>stuff</i> is new, but can still work with old <i>stuff</i>. See also "deprecated".</dd>
+<dt>BASE</dt>
+<dd>Basically Available Soft-state (or Scalable) Eventually Consistent, replaces ACID for Internet systems</dd>
+<dt>BCD</dt>
+<dd>Binary Coded Decimal, use 4 bits to express a decimal digit, from 0000 (0) to 1001 (9) effectively not using numbers 10-15.</dd>
+<dt>BDD</dt>
+<dd><a href="http://dannorth.net/introducing-bdd/">Behaviour Driven Development</a>, see SBE for a more general term.</dd>
+<dt>BDFL</dt>
+<dd>Benevolent dictator for life</dd>
+<dt>bit</dt>
+<dd><b>b</b>inary dig<b>it</b></dd>
+<dt>BMP</dt>
+<dd>Bean Managed Persistence, deprecated, use JPA instead. Though JDO might be an option.</dd>
+<dt>BMT</dt>
+<dd>bean-managed transactions</dd>
+<dt>BNF</dt>
+<dd>Backus Normal Form or Backus–Naur Form, a syntax for describing the grammar of computer languages. See EBNF.</dd>
+<dt>Boyscout Rule</dt>
+<dd>we should leave the code cleaner than we found it (paraphrased from "Leave the campground cleaner than you found it."). See Uncle Bob.</dd>
+<dt>BPM</dt>
+<dd>Business Process Management</dd>
+<dt>branch predictor</dt>
+<dd>a digital circuit that tries to guess which way a branch (e.g. an if-then-else structure) will go before this is known for sure. The purpose of the branch predictor is to improve the flow in the instruction pipeline. Branch predictors play a critical role in achieving high effective performance in many modern pipelined microprocessor architectures such as x86.</dd>
+<dt>broken windows theory</dt>
+<dd>a criminological theory of the norm-setting and signaling effect of urban disorder and vandalism on additional crime and anti-social behavior. The theory states that maintaining and monitoring urban environments to prevent small crimes such as vandalism, public drinking and toll-jumping helps to create an atmosphere of order and lawfulness, thereby preventing more serious crimes from happening. Applies to source code as well. Well structured, insightful source code will bring the best out in fellow programmers, who have a need to change it. See "Boyscout rule".</dd>
+<dt>BSP</dt>
+<dd>Basic Security Profile, was defined by the WS-I organization as an extension to the Basic Profile of web service interoperability.</dd>
+<dt>Bureaucrazy</dt>
+<dd>Any process or organization that sacrifices intelligence and rational thought in favour of administrative red tape.</dd>
+<dt><a href="#top" name="C">C</a></dt>
+<dd></dd>
+<dt>CA</dt>
+<dd>Certificate Authority or Certification Authority, an entity that issues digital certificates</dd>
+<dt>callback hell</dt>
+<dd>trying to write asynchronous code imperatively, causes a pyramid shape with lots of nesting.</dd>
+<dt>CamelCasing</dt>
+<dd>words or phrases, without spaces, where each new word starts with a capital. The first letter is either lower or uppercase.</dd>
+<dt>CAP (Theorem)</dt>
+<dd>Consistency, Availability, Partition tolerance. Only two out of three are possible. (Brewer)</dd>
+<dt>Cargo cult programming</dt>
+<dd>a style of computer programming that is characterized by the ritual inclusion of code or program structures that serve no real purpose</dd>
+<dt>CD</dt>
+<dd>Continuous Delivery. Continuous Integration extended to the Deployment activity. See CI.</dd>
+<dt>CDI</dt>
+<dd>Context and Dependency Injection, puts a dependency (some object/resource) which an object requires into the object, without the objects knowledge, with a contract that it behaves in a way that the object expects. Promotes loose coupling. See IoC.</dd>
+<dt>CI</dt>
+<dd>the practice, in software engineering, of merging all developer working copies with a shared mainline several times a day. It was first named and proposed as part of extreme programming (XP).</dd>
+<dt>Class</dt>
+<dd>blueprint or prototype from which objects are created (instantiated).</dd>
+<dt>Class Invariant</dt>
+<dd>an invariant used to constrain objects of a class. Methods of the class should preserve the invariant. The class invariant constrains the state stored in the object. In other words, class invariants make sure the state of an object stays consistent during the lifetime of the object.</dd>
+<dt>clothesline paradox, the</dt>
+<dd>If you put your clothes in the dryer, the energy you use is measured and counted. But if you hang them on the clothesline to be dried in the sun, the energy saved disappears from our accounting. Hence, when you see a graph showing that only a measly 1% (or so) of energy created is solar energy, remember the clothesline.</dd>
+<dt>CMM</dt>
+<dd>Capability Maturity Model. See CMMI.</dd>
+<dt>CMMI</dt>
+<dd>Capability Maturity Model Integration. Five levels, level 1 Initial, level 2 Managed, level 3 Defined, level 4 Quantitatively Managed, level 5 Optimizing</dd>
+<dt>CMP</dt>
+<dd>Container Managed Persistence, deprecated. Replaced by JPA</dd>
+<dt>CMT</dt>
+<dd>Container Managed Transactions, like the name says.</dd>
+<dt>code smell</dt>
+<dd>any symptom in the source code of a program that may indicate a deeper problem. Not necessarily bugs, but likely indicative of bad design.</dd>
+<dt>cohesion</dt>
+<dd> the degree to which each program module relies on each one of the other modules. Contrasted with Coupling. Always strive for low coupling and high cohesion. See Coupling.</dd>
+<dt>composition</dt>
+<dd>a class that contains other (different) classes. There is a direct relationship between the two, in that the owner has ownership and the classes owned cannot exist without the owner. For example car-steeringwheel. See aggregation.</dd>
+<dt>composition over inheritance</dt>
+<dd>HAS-A relationship gives more flexibility over an IS-A relationship. Though the inheritance strategy can simply use the methods from the superclass, without having to redefine them.</dd>
+<dt>contract oriented programming</dt>
+<dd>software development based on Hoar triples (:{P} A {Q}). Meaning that state P must hold before executing method A. State Q most hold after executing method A.</dd>
+<dt>contravariance/contravariant</dt>
+<dd>In those cases where a certain class can be used, or one of its Superclasses, for example where a Cat class is used, one can also use the Animal superclass. See covariance.</dd>
+<dt>convention over configuration</dt>
+<dd>yes, you can configure and tweak every little bit you want, however, if you don't, there's the sane defaults that work out-of-the-box. Also known as Configuration by Exception</dd>
+<dt>Conway's Law</dt>
+<dd>organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations. Named after computer programmer Melvin Conway, who introduced the idea in 1968.</dd>
+<dt>CORBA </dt>
+<dd>Common Object Request Broker Architecture</dd>
+<dt>CORS</dt>
+<dd>Cross-origin Resource Sharing, the "official" version of JSONP</dd>
+<dt>coupling</dt>
+<dd>the degree to which the elements of a module belong together. Thus, it is a measure of how strongly related each piece of functionality expressed by the source code of a software module is. Contrasted with Cohesion. Always strive for low coupling and high cohesion. See Cohesion.</dd>
+<dt>covariance/covariant</dt>
+<dd>means a subclass can be substituted for a class. A Cat class can be used where an Animal class is expected. See Liskov Substitution and contravariance.</dd>
+<dt>CPS</dt>
+<dd>Certification Practice Statement, legal document that describes how the Certificate Authority manages the certificates it issues</dd>
+<dt>CPS</dt>
+<dd>continuation-passing style, asynchronous programming by providing callbacks.</dd>
+<dt>CQRS</dt>
+<dd>Command Query Responsibility Segregation, means that the storing of information and the reading of information are separated in the implemention by two different modules.</dd>
+<dt>CRUD</dt>
+<dd>Create - Read - Update - Delete, the four universal things to do to a data object.</dd>
+<dt><a href="#top" name="D">D</a></dt>
+<dd></dd>
+<dt>DAO </dt>
+<dd>data access object</dd>
+<dt>DAS</dt>
+<dd>Domain Administration Server, an instance of Glassfish for example.</dd>
+<dt>database normalization</dt>
+<dd>The process of organizing the fields and tables of a relational database to minimize redundancy. A typical example of normalization is that a unique ID is stored everywhere in the system but its name is held in only one table.</dd>
+<dt>DBMS </dt>
+<dd>database management system</dd>
+<dt>DCL</dt>
+<dd>Data Control Language, access rights (GRANT/REVOKE)</dd>
+<dt>DCL</dt>
+<dd>Double Checked Locking, used in singletons to prevent having to synchronise. Avoid! Either synchronise or initialise at start of application.</dd>
+<dt>DD</dt>
+<dd>deployment descriptor</dd>
+<dt>DDD</dt>
+<dd>Domain-Driven Design, primary focus is on the domain and the domainmodel/logic. Requires domain experts.</dd>
+<dt>DDL</dt>
+<dd>Data Definition Language, for defining data structures in a database (CREATE TABLE as an example)</dd>
+<dt>DDoS</dt>
+<dd>distributed DoS. See DoS.</dd>
+<dt>De Morgan's Laws</dt>
+<dd>a pair of transformation rules applicable to boolean logic. To be specific, an "<i>AND</i>" operation ("<i>conjunction</i>") can be transformed in an "<i>OR</i>" operation ("<i>disjunction</i>"), and vice versa.</dd>
+<dt>Deadlock</dt>
+<dd>describes a situation where two or more threads are blocked forever, waiting for each other.</dd>
+<dt>Declarative programming</dt>
+<dd>describes <i>what </i>computation should be performed and not <i>how  </i>to compute it. See Imperative programming.</dd>
+<dt>delegation</dt>
+<dd>one object relying upon another to provide a specified set of functionalities. In research, this is often referred to as consultation or as aggregation in modeling. It has been argued that delegation may in some cases be preferred for inheritance to make program code more readable and understandable.</dd>
+<dt>Demeter, Law of</dt>
+<dd>See '<a href="#L">Law of Demeter</a>'.</dd>
+<dt>deprecated</dt>
+<dd>an attribute applied to a computer software feature (characteristic or practice) to indicate that it should be avoided, often because it has been superseded. Support for this computer software feature will soon be dropped. In new versions the computer feature might not even be present.</dd>
+<dt>DES</dt>
+<dd>Data Encryption Standard, deprecated. See TDES.</dd>
+<dt>design pattern</dt>
+<dd>software design pattern, a general reusable solution to a commonly occurring problem within a given context in software design.</dd>
+<dt>DevOps</dt>
+<dd>(a portmanteau of "development" and "operations") a concept dealing with, among other things: software development, operations, and services. It emphasizes communication, collaboration, and integration between software developers and information technology (IT) operations personnel. DevOps is a response to the interdependence of software development and IT operations. It aims to help an organization rapidly produce software products and services.</dd>
+<dt>DI</dt>
+<dd>See CDI.</dd>
+<dt>DIP</dt>
+<dd>Dependency Inversion Principle, high and low-level classes should depend on abstractions (interfaces). See also IOC. It's the D in SOLID. See also SOLID.</dd>
+<dt>DML</dt>
+<dd>Data Manipulation Language, for managing data in a database (UPDATE TABLE as an example)</dd>
+<dt>DMZ</dt>
+<dd>Demilitarized zone, a physical or logical subnetwork that contains and exposes an organization's external-facing services to a larger and untrusted network, usually the Internet. The purpose of a DMZ is to add an additional layer of security to an organization's local area network (LAN)</dd>
+<dt>dogfood</dt>
+<dd>you buy food for the dog, you have no idea if he likes it. If you're a programmer of Frameworks/Libraries/etc 'Eat your own dogfood.'</dd>
+<dt>DOM</dt>
+<dd>Document Object Model, convention for interacting and representing objects in xhtml, html and xml. Very heavily used by javascript. </dd>
+<dt>DoS</dt>
+<dd>Denial-of-service attack, an attempt to make a machine or network resource unavailable to its intended users. Usually by swamping the machine with bogus requests</dd>
+<dt>dotadiw</dt>
+<dd>"Do One Thing And Do It Well". One of the core tenets of the Unix Philosophy.</dd>
+<dt>DRY</dt>
+<dd>Don't Repeat Yourself (also known as DIE - Duplication Is Evil)</dd>
+<dt>DSDM</dt>
+<dd>Dynamic systems development method, one of a number of Agile methods for developing software and non-IT solutions, and it forms a part of the Agile Alliance</dd>
+<dt>DSL</dt>
+<dd>Domain Specific Languages</dd>
+<dt>DTAP</dt>
+<dd>Development, Testing, Acceptance and Production.</dd>
+<dt>DTO</dt>
+<dd>Data Transfer Object, an object that carries data between processes in order to reduce the number of method calls. No behaviour, only storage and retrieval. Advantages are that data can be prefetched in session/transaction before delivering it to the presentation layer, and it also adds the benefit that changes made to the data in the presentation layer have no effect. See DAO.</dd>
+<dt>DTP </dt>
+<dd>distributed transaction processing</dd>
+<dt>ducktyping</dt>
+<dd>"When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.", addendum from me: even if it isn't a duck, because I don't care, as long as it has the functionality I need.</dd>
+<dt><a href="#top" name="E">E</a></dt>
+<dd></dd>
+<dt>EA</dt>
+<dd>Enterprise Architecture<ol>
+<li>a method and an organizing principle that aligns functional business objectives and strategies with an IT strategy and execution plan. (Oracle Enterprise Architecture)</li>
+<li>A formal description of a system, or a detailed plan of the system at component level, to guide its implementation (source: ISO/IEC 42010:2007).</li>
+<li>The structure of components, their inter-relationships, and the principles and guidelines governing their design and evolution over time. (The Open Group)</li>
+</ol>
+</dd>
+<dt>EAFP</dt>
+<dd>Easier to Ask Forgiveness than Permission, see ducktyping</dd>
+<dt>EAI</dt>
+<dd>Enterprise application integration, the use of software and computer systems architectural principles to integrate a set of enterprise computer applications.</dd>
+<dt>EAR</dt>
+<dd>Enterprise ARchive, package of a JEE Application.</dd>
+<dt>EAV</dt>
+<dd>Entity–attribute–value model, a data model to describe entities where the number of attributes (properties, parameters) that can be used to describe them is potentially vast, but the number that will actually apply to a given entity is relatively modest (high "attribute volatility")</dd>
+<dt>EBNF</dt>
+<dd>Extended Backus Backus–Naur Form, a syntax for describing the grammar of computer languages. Less lengthy than BNF. See BNF.</dd>
+<dt>ECM</dt>
+<dd>Enterprise Content Management, management of unstructured information within an enterprise, usually comprised of a large variation of possible documents/records/archives/etc.</dd>
+<dt>EIS</dt>
+<dd>Enterprise Information System, a resource for your application, usually a database</dd>
+<dt>EJB</dt>
+<dd>Enterprise Java Bean, an JEE application component</dd>
+<dt>emergent design</dt>
+<dd>the mistaken idea that without planning up front, but by delivering small pieces of well-tested functionality and afterwards refactoring/merging of common areas, magically an efficient design will emerge.</dd>
+<dt>EL</dt>
+<dd>Expression Language</dd>
+<dt>elvis operator</dt>
+<dd>"?:", a binary operator that returns its first operand if that operand is true, and otherwise evaluates and returns its second operand. It is a variant of the ternary conditional operator, ? :, found in those languages (and many others): the Elvis operator is the ternary operator with its second operand omitted. So named because it resembles an Elvis emoticon.</dd>
+<dt>ERD</dt>
+<dd>entity–relationship diagram of an entity–relationship model, a data model for databases</dd>
+<dt>ERP </dt>
+<dd>enterprise resource planning</dd>
+<dt>ESB</dt>
+<dd>Enterprise Service Bus, software architecture model, special case client-server, promotes asynchronous message oriented design between applications in complex networks. See SOA. Also jokingly referred to as Enterprise Spaghetti Bus.</dd>
+<dt>ETL tools</dt>
+<dd>Extraction, Transformation and Load, used for moving/copying data from one place/format to another.</dd>
+<dt>Execute Around Method</dt>
+<dd>software pattern, where several pieces of arbitrary code need to be executed within some boilerplate-like code. Usually implemented using boilerplate code that accepts a lambda/closure.</dd>
+<dt>expression problem, the</dt>
+<dd>in object oriented languages it is easy to extend/create new objects, in functional languages it is easy to extend/create new methods. Both have advantages and disadvantages. Combining the two characteristics in one programming language is a problem though.</dd>
+<dt><a href="#top" name="F">F</a></dt>
+<dd></dd>
+<dt>facelets</dt>
+<dd>an open source Web template system under the Apache license and the default view handler technology (aka view declaration language) for JavaServer Faces (JSF)</dd>
+<dt>feature creep</dt>
+<dd>Also known as creeping featurism or featuritis. The ongoing expansion or addition of new features in a product, such as in computer software. Has the negative connotation of over-complicating the original design, adding features that are not part of the function of the software or provide no additional value to the users of the software.</dd>
+<dt>fibers</dt>
+<dd>threads in userspace, prevents inefficient context switching when some fibers are blocked</dd>
+<dt>FLOSS</dt>
+<dd>Free and open-source software</dd>
+<dt>fluent interface</dt>
+<dd>expressive coding technique, see <a href="http://www.martinfowler.com/bliki/FluentInterface.html">FluentInterface</a></dd>
+<dt>FOUC</dt>
+<dd>Flash of Unstyled Content, instance where a web page appears without style briefly, because stylesheet hasn't been loaded yet.</dd>
+<dt><a href="http://martinfowler.com/">Fowler, Martin</a></dt>
+<dd>a British software engineer, author and international speaker on software development, specializing in object-oriented analysis and design, UML, patterns, and agile software development methodologies, including extreme programming.</dd>
+<dt>FTP</dt>
+<dd>File Transfer Protocol</dd>
+<dt>FUD</dt>
+<dd>Fear, Uncertainty, and Doubt, spreading of rumour, lies or misinformation regarding a product due to poor knowledge of said product and/or because it's a competing product. Usually in an attempt to influence perception.</dd>
+<dt>Functional programming</dt>
+<dd>uses functions instead of state/data.</dd>
+<dt><a href="#top" name="G">G</a></dt>
+<dd></dd>
+<dt>GA</dt>
+<dd>General Availability, software version that is live in the field and in production. See also RC.</dd>
+<dt>GIS</dt>
+<dd>geographic information systems (think Google maps)</dd>
+<dt>glob</dt>
+<dd>glob patterns specify sets of filenames with wildcard characters, particular in a Unix-like environment.</dd>
+<dt>God Facade</dt>
+<dd>A Facade(Boundary/Gateway) that cannot make up its mind if it's SOA oriented or Domain object oriented. Usually identified by a huge number of methods, of which some are almost but not entirely alike and where several methods need to be called to complete a single process.</dd>
+<dt>GoF</dt>
+<dd>Gang of Four, Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, best known for their book "Design Patterns: Elements of Reusable Object-Oriented Software"</dd>
+<dt>googol</dt>
+<dd>10<sup>100</sup></dd>
+<dt>Guava</dt>
+<dd>Google core java library (<a href="http://code.google.com/p/guava-libraries/">http://code.google.com/p/guava-libraries/</a>)</dd>
+<dt>GUI</dt>
+<dd>Graphical User Interface, the whole point-clicky thing</dd>
+<dt><a href="#top" name="H">H</a></dt>
+<dd></dd>
+<dt>hashbang</dt>
+<dd>"#!", character sequence at the beginning of a file identifying the file as a script. The file can be run directly, if set to executable.</dd>
+<dt>HATEOAS</dt>
+<dd>Hypermedia as the Engine of Application State, no fixed interface or IDL defined, decouple client and server. Basically, the server returns URLS that allow the client to "dig deeper" without knowing specifics and allow the server to expand functionality without influencing the client. Part of the REST architecture (See REST, IDL). Do people actually use this acronym?</dd>
+<dt>HCI</dt>
+<dd>Human-Computer Interface</dd>
+<dt>Heisenbug</dt>
+<dd>Bug that disappears when changing code to add print/log statements</dd>
+<dt>heuristic</dt>
+<dd>experience-based techniques for problem solving, learning, and discovery that give a solution which is not guaranteed to be optimal. See design pattern.</dd>
+<dt>Hoare logic/triple</dt>
+<dd>{P} C {Q}, where P and Q are assertions and C is a command. P is named the precondition and Q the postcondition: when the precondition is met, executing the command establishes the postcondition. Developed initially by C.A.R. Hoare.</dd>
+<dt>Hofstadter's Law</dt>
+<dd>Self-referential law regarding the time it takes to do stuff. "It always takes longer than you expect, even when you take into account Hofstadter's Law."</dd>
+<dt>Hollywood Principle</dt>
+<dd>"Don't call us, we'll call you", because implementations typically rely on callbacks. See IoC.</dd>
+<dt>HQL</dt>
+<dd>Hibernate Query Language, a superset of JPQL.</dd>
+<dt>HTML</dt>
+<dd>HyperText Markup Language</dd>
+<dt>HTTPS</dt>
+<dd>HTTP over Secure Socket Layer (SSL) protocol</dd>
+<dt>HTTP</dt>
+<dd>Hyper-Text Transfer Protocol</dd>
+<dt>Huffman encoding</dt>
+<dd>an entropy encoding algorithm used for lossless data compression</dd>
+<dt>Hypervisor</dt>
+<dd>a piece of computer software, firmware or hardware that creates and runs virtual machines.</dd>
+<dt><a href="#top" name="I">I</a></dt>
+<dd></dd>
+<dt>i18n</dt>
+<dd>internationalization, where 18 stands for the number of letters between the first i and last n in internationalization. Making software suitable for multiple languages. See NLS and L10n.</dd>
+<dt>IDL</dt>
+<dd>Interface Definition Language</dd>
+<dt>idM</dt>
+<dd>Identity management, describes the management of individual identities, their authentication, authorization, roles and privileges within or across system and enterprise boundaries with the goal of increasing security and productivity while decreasing cost, downtime, and repetitive tasks.</dd>
+<dt>if it hurts, do it more often.</dt>
+<dd>a phrase used in agile methodology, referring to putting things off will increase the pain many fold (because more needs to be done).</dd>
+<dt>IIFE</dt>
+<dd>Immediately-invoked function expression, design pattern in javascript to make use of function scope to prevent polluting the global namespace.</dd>
+<dt>IIOP </dt>
+<dd>Internet Inter-ORB Protocol. See CORBA.</dd>
+<dt>inheritance</dt>
+<dd>classes can inherit attributes and behavior (i.e., previously coded algorithms associated with a class) from pre-existing classes called superclasses or parent classes. The new classes are known as subclasses or child classes. The relationships of classes through inheritance gives rise to a hierarchy. See delegation.</dd>
+<dt>IMAP </dt>
+<dd>Internet Message Access Protocol</dd>
+<dt>Imperative Programming</dt>
+<dd>define sequences of commands for the computer to perform. See Declarative programming.</dd>
+<dt>interleaving</dt>
+<dd>spreading out stuff among multiple things, in an alternating fashion. Used to improve the performance of forward error correcting codes. Interleaving creates a more uniform distribution of errors, given the fact that pockets of errors can occur together if the single medium at that point becomes weak.</dd>
+<dt>invariant</dt>
+<dd>if neither covariance nor contravariance is supported. See covariance, contravariance.</dd>
+<dt>IoC</dt>
+<dd>Inversion of Control, no central control, business knowledge incorporated by the responsible entity and preferably nowhere else.</dd>
+<dt>IoT</dt>
+<dd>Internet of Things.</dd>
+<dt>IPA</dt>
+<dd>Identity, Policy and Audit (basically authentication and authorisation of users, primarily linux/unix based)</dd>
+<dt>ISO</dt>
+<dd>International Organization for Standardization, see OSI.</dd>
+<dt>ISP</dt>
+<dd>Interface segregation principle, several interfaces is better than one big interface. I find it similar to SRP. The I of SOLID. See also SOLID.</dd>
+<dt>ITIL</dt>
+<dd>Information Technology Infrastructure Library, 5 books on ITSM, Service Strategy, Service Design, Service Transition, Service Operation, Continual Service Improvement</dd>
+<dt>ITSM</dt>
+<dd>Information Technology Service Management</dd>
+<dt><a href="#top" name="J">J</a></dt>
+<dd></dd>
+<dt>JAAS</dt>
+<dd>Java Authentication and Authorization Service, Java implementation of PAM.</dd>
+<dt>JAR</dt>
+<dd>Java ARchive, for packaging resources/classes/xmlfiles and the like.</dd>
+<dt><a href="http://www.crockford.com/javascript/javascript.html">JavaScript</a></dt>
+<dd>aka Mocha, aka LiveScript, aka JScript, aka ECMAScript, a programming language. JavaScript's popularity is due entirely to its role as the scripting language of the WWW.</dd>
+<dt>JAXB</dt>
+<dd>Java Architecture for XML Binding</dd>
+<dt>JAXP</dt>
+<dd>Java API for XML Processing, fairly low-level adaptable XML parser API, can work with multiple parsers.</dd>
+<dt>JAXR</dt>
+<dd>Java API for XML Registries, a standard API for Java platform applications to access and programmatically interact with various kinds of metadata registries over the Web via XML.</dd>
+<dt>JAX_RPC</dt>
+<dd>Java API for XML-based RPC, deprecated. The new name is JAX-WS. See also JAX-WS.</dd>
+<dt>JAX-RS</dt>
+<dd>Java API for RESTful Web Services, see REST</dd>
+<dt>JAX-WS</dt>
+<dd>Java API for XML Web Services, so SOAP XML like etc using JAXB. Also provides Client APIs.</dd>
+<dt>JCA</dt>
+<dd>Java EE Connector Architecture, Java-based technology solution for connecting application servers and EIS as part of EAI solutions</dd>
+<dt>JCE</dt>
+<dd>Java Cryptography Extension</dd>
+<dt>JDBC</dt>
+<dd>Java DataBase Connectivity, but not really.</dd>
+<dt>JDK</dt>
+<dd>Java Development Kit</dd>
+<dt>JDO</dt>
+<dd>Java Data Objects, POJOs with Persistence without ORM.</dd>
+<dt>JEE</dt>
+<dd>Java Enterprise Edition</dd>
+<dt>JLS</dt>
+<dd><a href="http://docs.oracle.com/javase/specs/">Java Language Specification</a></dd>
+<dt>JMM</dt>
+<dd>Java Memory Model, seriously complicated stuff</dd>
+<dt>JMS</dt>
+<dd>Java Message Service, supports Point-to-point and Publish and subscribe. Not Request and Reply. See MOM.</dd> </dd>
+<dt>JMX</dt>
+<dd>Java Management Extensions,  Java technology that supplies tools for managing and monitoring applications, system objects, devices (e. g. printers) and service oriented networks. Those resources are represented by objects called MBeans (for Managed Bean)</dd>
+<dt>JNDI</dt>
+<dd>Java Naming and Directory Interface</dd>
+<dt>JNI</dt>
+<dd>Java Native Interface, used to call and be called to/from other applications not necessarily java.</dd>
+<dt>JNLP</dt>
+<dd>Java Network Launching Protocol, 'Java Web Start'</dd>
+<dt>JPA</dt>
+<dd>Java Persistence API</dd>
+<dt>JPQL</dt>
+<dd>Java Persistence Query Language, SQL for OO</dd>
+<dt>JRE</dt>
+<dd>Java Runtime Environment</dd>
+<dt>JRMP</dt>
+<dd>Java Remote Method Protocol, the Java technology-specific protocol for looking up and referencing remote objects. It is a wire level protocol running at the level under Remote Method Invocation (RMI) and over TCP/IP.</dd>
+<dt>JSDK</dt>
+<dd>Java Software Development Kit</dd>
+<dt>JSF</dt>
+<dd>Java Server Faces, web app framework on top of jsp, though Facelets are now the default. Creates templates and descriptions using xml. See JSP</dd>
+<dt>JSL</dt>
+<dd>Job Specification Language used for Java Batch</dd>
+<dt>JSR</dt>
+<dd>Java Specification Request, new feature requests in the Java and JEE language/frameworks.</dd>
+<dt>JSON</dt>
+<dd>Java Script Object Notation</dd>
+<dt>JSONP</dt>
+<dd>JSON with Padding</dd>
+<dt>JSP</dt>
+<dd>Java Server Pages, java servlets in template form</dd>
+<dt>JSTL</dt>
+<dd>Java Standard Tag Library</dd>
+<dt>JTS</dt>
+<dd>Java transaction service, a specification for building a transaction manager that maps onto the Object Management Group (OMG) Object Transaction Service (OTS) used in the Common Object Request Broker Architecture (CORBA) architecture</dd>
+<dt>JTA</dt>
+<dd>Java Transaction API, enables distributed transactions to be done across multiple X/Open XA resources in a Java environment</dd>
+<dt>JUL</dt>
+<dd>java.util.Logging</dd>
+<dt>JVM</dt>
+<dd>Java Virtual Machine, runs a java bytecode program.</dd>
+<dt><a href="#top" name="K">K</a></dt>
+<dd></dd>
+<dt>Kaizen</dt>
+<dd>Japanese for "good change". The word Kaizen in English is typically applied to measures for implementing continuous improvement.</dd>
+<dt>KDD</dt>
+<dd>Knowledge Discovery in Data, a better known name is Data Mining</dd>
+<dt>Kernighan, Brian Wilson</dt>
+<dd>Canadian computer scientist who worked at Bell Labs alongside Unix creators Ken Thompson and Dennis Ritchie, one of <i>the first Prophets</i></dd>
+<dt>KISS</dt>
+<dd>Keep It Simple, Stupid</dd>
+<dt>K&amp;R</dt>
+<dd>Kernighan &amp; Richie, also known as <i>the first Prophets</i></dd>
+<dt>KVM</dt>
+<dd>Kernel-based Virtual Machine</dd>
+<dt><a href="#top" name="L">L</a></dt>
+<dd></dd>
+<dt>L10n</dt>
+<dd>localization, where 10 stands for the number of letters between the first L and last n in localization. Making software suitable for multiple locations (with different languages/dialects/etc). See NLS and i18n.</dd>
+<dt>Lambda</dt>
+<dd>an operator used to denote anonymous functions or closures, following the usage of lambda calculus</dd>
+<dt>Law of Demeter</dt>
+<dd>loose coupling, only talk to direct friends, don't talk to strangers</dd>
+<dt>LCD</dt>
+<dd>Lowest Common Denominator, pick the one with the fewest features, so it works on everything.</dd>
+<dt>LeBlanc's Law</dt>
+<dd>"Later equals never". The law is attributed to Dave LeBlanc.</dd>
+<dt>Linus Torvalds</dt>
+<dd>a Finnish-American software engineer, who is the creator of the Linux kernel and for a long time, principal developer. He also created the distributed revision control system git.</dd>
+<dt>Livelock</dt>
+<dd>A thread often acts in response to the action of another thread. If the other thread's action is also a response to the action of another thread, then livelock may result. As with deadlock, livelocked threads are unable to make further progress. However, the threads are not blocked — they are simply too busy responding to each other to resume work.</dd>
+<dt>Liveness</dt>
+<dd>A concurrent application's ability to execute in a timely manner</dd>
+<dt>LOC</dt>
+<dd>Lines of Code, meaningless statistic to impress people, used to be used to measure developer productivity, but now deprecated (by me).</dd>
+<dt>LRU</dt>
+<dd>Least Recently Used, caching algorithm</dd>
+<dt>LSD</dt>
+<dd>Lean Software Development. See TPS.</dd>
+<dt>LSP</dt>
+<dd>Liskov substitution principle, L in SOLID. See also SOLID.</dd>
+<dt>LZW</dt>
+<dd>Lempel–Ziv–Welch, a universal lossless data compression algorithm created by Abraham Lempel, Jacob Ziv, and Terry Welch.</dd>
+<dt><a href="#top" name="M">M</a></dt>
+<dd></dd>
+<dt>magic</dt>
+<dd>hidden program complexity (of a sort that makes the way the source code works very hard to understand.) begind a simple interface. I do not approve of magic.</dd>
+<dt>Maven</dt>
+<dd>a software project management and comprehension tool, can manage a project's build, reporting and documentation from a central piece of information.</dd>
+<dt>MBeans</dt>
+<dd>Managed Beans, see JMX</dd>
+<dt>MCC</dt>
+<dd>See MVCC.</dd>
+<dt>Method Chaining</dt>
+<dd>methods of an object return the object itself, enabling methods to be chained together, like <tt>customer.newOrder().with(6, "TAL").with(5, "HPK").skippable().with(3, "LGV").priorityRush();</tt> See also fluent interface.</dd>
+<dt>MINIX</dt>
+<dd>a POSIX-compliant, Unix-like computer operating system based on a microkernel architecture created by Andrew S. Tanenbaum for educational purposes.</dd>
+<dt>Mixin</dt>
+<dd>a class that provides some functionality to be inherited or used by its subclasses, but is not meant for instantiation, also known as an abstract class. It is a means to collect common functionality at a higher level.</dd>
+<dt>MOLAP</dt>
+<dd>Multidimensional On Line Analytical Processing, uses "cubes".</dd>
+<dt>MOM</dt>
+<dd>Message-Oriented Middleware, a common reliable way for programs to create, send, receive and read messages in any distributed Enterprise System.</dd>
+<dt>monkey patch</dt>
+<dd>a way for a program to extend or modify supporting system software locally (affecting only the running instance of the program).</dd>
+<dt>MOSCOW</dt>
+<dd>Must Have, Should Have, Could Have, Won't Have</dd>
+<dt>MRU</dt>
+<dd>Most Recently Used, caching algorithm</dd>
+<dt>MTBF</dt>
+<dd>Mean Time Between Failures,  MTTF + MTTD + MTTR, but an average ofcourse.</dd>
+<dt>MTOM</dt>
+<dd>Message Transmission Optimization Mechanism, a more efficient way of sending binary data to/from webservices. Usually SOAP uses conversion to tekst, which is inefficient for large files. See XOP.</dd>
+<dt>MTTD</dt>
+<dd>Mean Time Till Diagnose</dd>
+<dt>MTTF</dt>
+<dd>Mean Time Till Failure</dd>
+<dt>MTTR</dt>
+<dd>Mean Time Till Repair</dd>
+<dt>mushroom management</dt>
+<dd>keep them in the dark, feed them ...dung, watch them grow</dd>
+<dt></dt>
+<dd></dd>
+<dt>MVC</dt>
+<dd>Model–view–controller, is often seen in web applications where the view is the HTML or XHTML generated by the application. The controller receives GET or POST input and decides what to do with it, handing over to domain objects (i.e. the model) that contain the business rules and know how to carry out specific tasks such as processing a new subscription, and which hand control to (X)HTML-generating components such as templating engines, XML pipelines, Ajax callbacks, etc.</dd>
+<dt>MVCC</dt>
+<dd><a href="http://en.wikipedia.org/wiki/Multiversion_concurrency_control">Multiversion concurrency control</a>, in databases it means that updates/deletes on a table, obsoletes the old values and creates the new (timestamped) version. It allows for PITR and snapshots and ACID (without many locks).</dd>
+<dt>MVP</dt>
+<dd>Model–view–presenter, software engineering design and architectural pattern</dd>
+<dt>MVVM</dt>
+<dd>Model View ViewModel, an architectural pattern used in software engineering that originated from Microsoft as a specialization of the Presentation Model design pattern introduced by Martin Fowler.</dd>
+<dt>MVW</dt>
+<dd><a href="https://plus.google.com/+AngularJS/posts/aZNVhj355G2">Model-View-Whatever</a>, AngularJS is such a framework that uses it. See also, ha ha only serious.</dd>
+<dt><a href="#top" name="N">N</a></dt>
+<dd></dd>
+<dt>nanodijkstra</dt>
+<dd>measurement unit for arrogance, in computer science. See <a href="http://en.wikipedia.org/wiki/Edsger_Wybe_Dijkstra">Edsger W. Dijkstra</a></dd>
+<dt>NFR</dt>
+<dd>Non Functional Requirements, for example security.</dd>
+<dt>NLS</dt>
+<dd>National Language Support or Native Language Support. Making software suitable for multiple locations/different languages. See i18n and L10n.</dd>
+<dt>non-reifiable type</dt>
+<dd>non-reifiable types are types where information has been removed at compile-time by type erasure. See reifiable and type erasure.</dd>
+<dt>(Database) normalization</dt>
+<dd>a database schema to minimize redundancy and dependency, for example by using autoincrement keys as pks, and not storing the same data in several tables. For the reverse, see OLAP.</dd>
+<dt>NoSQL</dt>
+<dd>not a RDBMS, but more a 'structured storage' system of which RDBMSes are a subset. Usually not totally ACID. (See RDBMS, ACID)</dd>
+<dt>NPE</dt>
+<dd>NullPointerException, the Bane of Existence for any Java Programmer.</dd>
+<dt><a href="#top" name="O">O</a></dt>
+<dd></dd>
+<dt>Object</dt>
+<dd>an instance of a class containing both state (attributes/properties) and logic (methods), as a coherent entity.</dd>
+<dt>OCP</dt>
+<dd>Open - Closed Principle. The O in SOLID. See also SOLID.</dd>
+<dt>Odersky, Martin</dt>
+<dd>Professor at EPFL and creater of the Scala programming language.</dd>
+<dt>OLAP</dt>
+<dd>On Line Analytical Processing, de-normalized data in a database, periodic in nature, for management and trends</dd>
+<dt>OLTP</dt>
+<dd>Online transaction processing, basically what an RDBMS can do.</dd>
+<dt>OMG</dt>
+<dd>Object Management Group, responsible for the CORBA standard.</dd>
+<dt>OOAD</dt>
+<dd>Object Oriented Analysis and Design. Managing complexity of software systems by modelling real life objects.</dd>
+<dt>OOD</dt>
+<dd>Object Oriented Design, see OOAD</dd>
+<dt>OOP</dt>
+<dd>Object Oriented Programming, see OOAD</dd>
+<dt>ORB</dt>
+<dd>Object Request Broker</dd>
+<dt>ORM</dt>
+<dd>Object-relational mapping (ORM, O/RM, and O/R mapping), mapping between tables/columns/rows (SQL) and objects/attributes/fields/lists (OOD)</dd>
+<dt>OS</dt>
+<dd>Operating System</dd>
+<dt>OSI</dt>
+<dd>Open Systems Interconnection (OSI) model (ISO/IEC 7498-1), a concept of a communication model using 7 layers.</dd>
+<dt>OSGi</dt>
+<dd>Open Services Gateway initiative framework, a module system and service platform for the Java programming language that implements a complete and dynamic component model</dd>
+<dt>OTAP</dt>
+<dd>Ontwikkeling Test Acceptatie and Productie, the Dutch equivalent of the English DTAP.</dd>
+<dt>OWASP</dt>
+<dd>Open Web Application Security Project, a 501c3 not-for-profit worldwide charitable organization focused on improving the security of application software.</dd>
+<dt><a href="#top" name="P">P</a></dt>
+<dd></dd>
+<dt>PAM</dt>
+<dd>the standard Pluggable Authentication Module, information security framework</dd>
+<dt>path dependence</dt>
+<dd>the set of decisions one faces for any given circumstance is limited by the decisions one has made in the past, even though past circumstances may no longer be relevant. See "backwards compatible".</dd>
+<dt>Peter principle</dt>
+<dd>the selection of a candidate for a position is based on the candidate's performance in their current role, rather than on abilities relevant to the intended role. Thus, employees only stop being promoted once they can no longer perform effectively, a.k.a. "managers rise to the level of their incompetence."</dd>
+<dt>PGPD</dt>
+<dd>Post - Get - Put - Delete, http request types mirroring CRUD. See CRUD. (Made this one up myself)</dd>
+<dt>PITR</dt>
+<dd>Point-In-Time Recovery, data or a particular setting can be restored or recovered from a(ny) time in the past.</dd>
+<dt>POJO</dt>
+<dd>Plain Old Java Object</dd>
+<dt>POLA</dt>
+<dd>principle of least astonishment, user interface or software design should be created in such a way to align with peoples expectations, people should not be "astonished" or "surprised" if the system behaves in a certain way. This minimizes the learning curve, among other things.</dd>
+<dt>polymorphism</dt>
+<dd>a programming language feature that allows values of different types to be handled by a uniform interface.<ul>
+<li>ad hoc polymorphism - function overloading</li>
+<li>parametric polymorphism - generics</li>
+<li>(inclusion) polymorphism - subtyping</li>
+</ul>
+</dd>
+<dt>pom</dt>
+<dd>Project Object Model, an XML representation of a Maven project held in de file name pom.xml. See Maven.</dd>
+<dt>POSIX</dt>
+<dd>Portable Operating System Interface, a family of standards specified by the IEEE for maintaining compatibility between operating systems. </dd>
+<dt>PRINCE, PRINCE2</dt>
+<dd>PRojects IN Controlled Environments, a project management method </dd>
+<dt>Principle of least astonishment</dt>
+<dd>"If a necessary feature has a high astonishment factor, it may be necessary to redesign the feature."</dd>
+<dt><a href="#top" name="Q">Q</a></dt>
+<dd></dd>
+<dt>QA</dt>
+<dd>Quality assurance</dd>
+<dt>QBC</dt>
+<dd>Query By Criteria, create a query via Java syntax. Advantage is in the type checking and the like. See ORM.</dd>
+<dt>QBE</dt>
+<dd>Query By Example, find what you need based on an example, finds the objects that are similar. See ORM.</dd>
+<dt>QoS</dt>
+<dd>Quality of Service</dd>
+<dt>quine</dt>
+<dd>a non-empty computer program which takes no input and produces a copy of its own source code as its only output. Basically a selfreplicating program.</dd>
+<dt><a href="#top" name="R">R</a></dt>
+<dd></dd>
+<dt>race condition</dt>
+<dd>a flaw in an electronic system or process whereby the output or result of the process is unexpectedly and critically dependent on the sequence or timing of other events. The term originates with the idea of two signals racing each other to influence the output first.</dd>
+<dt>RAR</dt>
+<dd>resource (adapter) archive</dd>
+<dt>RC</dt>
+<dd>Release Candidate, software version before GA. See GA.</dd>
+<dt>RDBMS</dt>
+<dd>Relational database management system</dd>
+<dt>RDM</dt>
+<dd>Rich Domain Model, business logic resides in the objects themselves, see ADM.</dd>
+<dt>reifiable type</dt>
+<dd>a reifiable type is a data type whose type information is fully available at runtime. See non-reifiable.</dd>
+<dt>reification</dt>
+<dd>See "reifiable type".</dd>
+<dt>Release early, release often</dt>
+<dd>emphasizes the importance of early and frequent releases in creating a tight feedback loop between developers and testers or users, contrary to a feature-based release strategy</dd>
+<dt>REPL</dt>
+<dd>interactive shell called the Repeat-Eval-Print Loop</dd>
+<dt>REST</dt>
+<dd>REpresentational State Transfer</dd>
+<dt>RIA</dt>
+<dd>Rich Internet Applications</dd>
+<dt>Richardson Maturity Model</dt>
+<dd>A model (developed by Leonard Richardson) that breaks down the principal elements of a REST approach into three steps. See HATEOAS.</dd>
+<dt>Ritchie, Dennis MacAlistair</dt>
+<dd>American computer scientist who worked at Bell Labs alongside Unix creators Ken Thompson and Brian Kerighan, one of <i>the first Prophets</i>. Created programming language C.</dd>
+<dt>RMI</dt>
+<dd>Remote Method Invocation</dd>
+<dt>RMI-IIOP</dt>
+<dd>Remote Method Invocation over IIOP</dd>
+<dt>ROLAP</dt>
+<dd>Relational On Line Analytical Processing, but still in a relational database</dd>
+<dt>RPC</dt>
+<dd>Remote Procedure Call</dd>
+<dt>RSN</dt>
+<dd>Real Soon Now, don't hold your breath</dd>
+<dt>rubber duck debugging</dt>
+<dd>informal term used in software engineering for a method of debugging code. In short, explain your problem thoroughly to a rubber duck. Chances are you find out at that time what you are doing wrong/what the problem is.</dd>
+<dt>RUP</dt>
+<dd>Rational Unified Process</dd>
+<dt><a href="#top" name="S">S</a></dt>
+<dd></dd>
+<dt>SAAJ</dt>
+<dd>SOAP with Attachments API for Java, a standard way to send XML documents over the Internet from the Java platform.  SAAJ enables developers to produce and consume messages conforming to the SOAP 1.1 and 1.2 specifications and SOAP with Attachments note.</dd>
+<dt>salt</dt>
+<dd>A random byte array added to a password that is about to be hashed to prevent dictionary attacks, see <a href="https://www.owasp.org/index.php/Hashing_Java">https://www.owasp.org/index.php/Hashing_Java</a></dd>
+<dt>SAM</dt>
+<dd>Single Abstract Method, functional interface, an interface with a single abstract method. Can be instantiated using lambdas. See Lambda.</dd>
+<dt>SAML</dt>
+<dd>Security Assertion Markup Language, an XML-based open standard data format for exchanging authentication and authorization data between parties, in particular, between an identity provider and a service provider. SAML is a product of the OASIS Security Services Technical Committee.</dd>
+<dt>SAX</dt>
+<dd>Simple API for XML, event-based XML Parser</dd>
+<dt>SBE</dt>
+<dd>Specification By Example, use realistic examples instead of abstract statements.</dd>
+<dt><a href="http://www.scala-lang.org/">Scala</a></dt>
+<dd>Scala is a programming language with both object oriented aspects as well as functional aspects, and static type checking running on the JVM. It began life in 2003, created by Martin Odersky and his research group at EPFL, next to Lake Geneva and the Alps, in Lausanne, Switzerland. Scala has since grown into a mature open source programming language, used by hundreds of thousands of developers, and is developed and maintained by scores of people all over the world. </dd>
+<dt>SCN</dt>
+<dd>System change number, a stamp that defines a committed version in an Oracle Database</dd>
+<dt>Scrum</dt>
+<dd>A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value. Scrum is:<ul>
+<li>Lightweight</li>
+<li>Simple to understand</li>
+<li>Difficult to master</li>
+</ul>
+</dd>
+<dt>SDLC</dt>
+<dd>Systems Development Life-Cycle also Software Development Life-Cycle</dd>
+<dt>seagull management</dt>
+<dd>Seagull managers fly in, make a lot of noise, dump on everyone, then fly out.</dd>
+<dt>Seam</dt>
+<dd>JBoss webframework, on top of Java/JSP/Facelets. Uses EL (See EL) and finer grained webcontexts (like long "conversations", spanning multiple webrequests.)</dd>
+<dt>second-system effect</dt>
+<dd>when an architect designs a second system, it is the most dangerous system he will ever design, because he will tend to incorporate all of the additions he originated but did not add (due to inherent time constraints) to the first system. Thus, when embarking upon a second system, an engineer should be mindful that he is susceptible to over-engineering it.</dd>
+<dt>security role</dt>
+<dd>a semantic grouping of permissions that a given type of users of an application must have in order to successfully use the application.</dd>
+<dt>SEI</dt>
+<dd>service endpoint interface, defines the interface/business methods of the EJB when exposing the EJB as a Web service</dd>
+<dt>shebang</dt>
+<dd>see hashbang.</dd>
+<dt>SIB</dt>
+<dd>Service Implementation Bean, a Java object implementing a web service</dd>
+<dt>short-circuit evaluation</dt>
+<dd>the idea that in boolean logic, the right side need not always be evaluated. This happens when in an "and", the left side evaluates to false and in an "or", the left side evaluates to true.</dd>
+<dt>Skeleton</dt>
+<dd>a server side object participating in distributed object communication.</dd>
+<dt>SLF4J</dt>
+<dd>Simple Logging Facade For Java - functions as an interface that can delegate requests for logging to different logging frameworks.</dd>
+<dt>SLSB</dt>
+<dd>Stateless Session Bean</dd>
+<dt>SMART</dt>
+<dd>Specific, Measurable, Attainable, Relevant, Time-bound</dd>
+<dt>Sneakernet</dt>
+<dd>refers to the use of someone wearing sneakers as the transport mechanism for the data, instead of networking cable of somekind.</dd>
+<dt>SOA</dt>
+<dd>Service Oriented Architecture</dd>
+<dt>SOAP</dt>
+<dd>Simple Object Access Protocol, web services via verbose XML, usually over HTTP.</dd>
+<dt>SoC</dt>
+<dd>Separation of Concerns</dd>
+<dt>Software entropy</dt>
+<dd>also called software decay, software erosion, code rot. Basically two laws. <ol>
+<li>A computer program that is used will be modified</li>
+<li>When a program is modified, its complexity will increase, provided that one does not actively work against this.</li>
+</ol>
+In other words, any software program that keeps getting modified will descend into a big mess, unless programmers actively work against this.</dd>
+<dt>SOLID</dt>
+<dd><ul>
+<li>Single responsibility - the notion that an object should have only a single responsibility</li>
+<li>Open-closed - the notion that “software entities … should be open for extension, but closed for modification”.</li>
+<li>Liskov substitution - the notion that “objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program”.</li>
+<li>Interface segregation - the notion that “many client specific interfaces are better than one general purpose interface.”</li>
+<li>Dependency inversion - the notion that one should “Depend upon Abstractions. Do not depend upon concretions.”</li>
+</ul>
+</dd>
+<dt>SONAR/SonarQube</dt>
+<dd>an open source platform for continuous inspection of code quality</dd>
+<dt>spaceship operator</dt>
+<dd>"&lt;=&gt;"a three-way comparison, usually returning -1, 0 and 1 to indicate smaller, equal or bigger. So named as it resembles a kind of spaceship.</dd>
+<dt>SPI</dt>
+<dd>service provider interface, LDAP/database/flatfile/etc for JNDI</dd>
+<dt>Spolsky's Law of Leaky Abstractions</dt>
+<dd>implementation details will always leak through, regardless of how good you try to model the abstraction</dd>
+<dt>SQALE</dt>
+<dd>Software Quality Assessment based on Lifecycle Expectations, a method to support the evaluation of a software application source code. See SONAR.</dd>
+<dt>SQL</dt>
+<dd>Standard Query Language, for talking to relational databases (RDBM)</dd>
+<dt>SRP</dt>
+<dd>Single Responsibility Principle, don't try to do too much. Split it up into independent entities. Is the S in SOLID. See also SOLID.</dd>
+<dt>SRS</dt>
+<dd>System Requirements Specification</dd>
+<dt>SSL</dt>
+<dd>secure socket layer</dd>
+<dt>SSO</dt>
+<dd>Single Sign On, pattern for providing credentials to users upon sign on, so they do not require to re-authenticate themselves for every little thing</dd>
+<dt>ST</dt>
+<dd>Story Testing</dd>
+<dt>Starvation</dt>
+<dd>describes a situation where a thread is unable to gain regular access to shared resources and is unable to make progress. This happens when shared resources are made unavailable for long periods by "greedy" threads.</dd>
+<dt>StAX</dt>
+<dd>Streaming API for XML</dd>
+<dt>STONITH</dt>
+<dd>"Shoot The Other Node In The Head", make sure the master node, after failure and takeover by the slave node cannot be started again. To prevent multiple masters in the system.</dd>
+<dt>Stub</dt>
+<dd>a client side object participating in the distributed object communication.</dd>
+<dt>Sun Microsystems, Inc.</dt>
+<dd>Sun Microsystems, Inc. was a company that sold computers, computer components, computer software, and information technology services and that created the Java programming language, and the Network File System (NFS). Was acquired by Oracle in 2010.</dd>
+<dt>SUT</dt>
+<dd>System Under Test</dd>
+<dt><a href="#top" name="T">T</a></dt>
+<dd></dd>
+<dt>TANSTAAFL</dt>
+<dd>There ain't no such thing as a free lunch</dd>
+<dt>TCL</dt>
+<dd>Transaction Control, database, commit and rollback and the like</dd>
+<dt>TCP</dt>
+<dd>Transmission Control Protocol</dd>
+<dt>TDD</dt>
+<dd>Test Driven Design (does anyone really use that?) See BDD also.</dd>
+<dt>TDES</dt>
+<dd>Triple DES, 3DES. See DES. Not yet deprecated, but it's not going to take long. See AES.</dd>
+<dt>technical debt</dt>
+<dd>a metaphor referring to the eventual consequences of any system design, software architecture or software development within a codebase.</dd>
+<dt>Tell, Don't Ask</dt>
+<dd>tell an object to do something, do NOT ask (values) of an object and do it yourself.</dd>
+<dt>TLS</dt>
+<dd>Transport Layer Security, an upgrade of SSL Version 3.0. No longer SSL, due to breaking interoperability with older versions.</dd>
+<dt>TO</dt>
+<dd>transfer object</dd>
+<dt>TPM</dt>
+<dd>Total Productive Maintenance, see 5S</dd>
+<dt>TPS</dt>
+<dd>Toyota Production System</dt>
+<dt>two pizza team</dt>
+<dd>small groups can innovate and test their visions independently of everyone else. Jeff Bezo, founder of Amazon.com, came up with the notion of the 'two-pizza team': If you can't feed a team with two pizzas, it's too large. That limits a task force to five to seven people, depending on their appetites. (<a href="http://www.zurb.com/word/two-pizza-team">source</a>)</dd>
+<dt>type erasure</dt>
+<dd>removal of type information at compile time. So type checking can only be done at compile time, never at runtime. The opposite of type erasure is called reification</dd>
+<dt><a href="#top" name="U">U</a></dt>
+<dd></dd>
+<dt>UDDI</dt>
+<dd>Universal Description Discovery and Integration, XML based registry for companies to indicate to other companies what kind of web services they provide</dd>
+<dt>UDP</dt>
+<dd>User Datagram Protocol</dd>
+<dt>UI 
+</dt>
+<dd>user interface </dd>
+<dt>UID 
+</dt>
+<dd>user identification (number) </dd>
+<dt>UML</dt>
+<dd>Unified Modelling Language, a standardized general-purpose modeling language in the field of object-oriented software engineering, created by Grady Booch, James Rumbaugh and Ivar Jacobson</dd>
+<dt>Uncle Bob</dt>
+<dd>Robert Cecil Martin. Always ask yourself, what would Uncle Bob do.</dd>
+<dt>Unit of Work</dt>
+<dd>a design pattern described by Martin Fowler as “[maintaining] a list of objects affected by a business transaction and coordinates the writing out of changes and the resolution of concurrency problems.”</dd>
+<dt>URI</dt>
+<dd>Universal Resource Identifier, for example http://example.org/absolute/URI/with/absolute/path/to/resource.txt.</dd>
+<dt>URL</dt>
+<dd>Universal/Uniform Resource Locator (See URI). for example scheme://domain:port/path?query_string#fragment_id</dd>
+<dt>URL rewriting</dt>
+<dd>Instead of creating a GET-string or POST data, put data inside the url. So, instead of <tt>http://www.somestuff.com/products.jsp?productid=7&overview=complete</tt>, use <tt>http://www.somestuff.com/products/7</tt>.</dd>
+<dt>URN</dt>
+<dd>Uniform Resource Name, for example urn:ietf:rfc:2648. (See URI)</dd>
+<dt>User expectations</dt>
+<dd>the consistency that users expect from products. See "Principle of least astonishment".</dd>
+<dt>UTF</dt>
+<dd>Unicode Transformation Format. Various UTF encodings have been devised, with the variable-length UTF-8 and UTF-16 encodings being commonly used. </dd>
+<dt>UUID</dt>
+<dd>Universally unique identifier, for use in distributed systems, for example</dd>
+<dt><a href="#top" name="V">V</a></dt>
+<dd></dd>
+<dt>VM</dt>
+<dd>Virtual Machine</dd>
+<dt>VMM</dt>
+<dd>virtual machine monitor, see Hypervisor.</dd>
+<dt>VO</dt>
+<dd>Value Object</dd>
+<dt>von Neumann, John</dt>
+<dd>Hungarian-American pure and applied mathematician, physicist, and polymath. Was involved with one of the first computers in 1945.</dd>
+<dt>von Neumann bottleneck</dt>
+<dd>unavoidable latency due to transfer times between the processor and the memory. Hence, as processors become faster, they're idling more as they're waiting for memory. See Von Neumann.</dd>
+<dt><a href="#top" name="W">W</a></dt>
+<dd></dd>
+<dt>WADL</dt>
+<dd>Web Application Description Language, describes api containing HTTP REST services</dd>
+<dt>WAR</dt>
+<dd>Web Archive, jar file. For packaging a Web module.</dd>
+<dt>WIMP</dt>
+<dd>windows, icons, menus, pointer</dd>
+<dt>WSDL</dt>
+<dd>Web Services Description Language, describes api containing Web services</dd>
+<dt>WSIT</dt>
+<dd>Web Services Interoperability Technology is an open-source project started by Sun Microsystems to develop the next-generation of Web service technologies. It provides interoperability between Java Web Services and Microsoft's Windows Communication Foundation (WCF).</dd>
+<dt>WTF/s</dt>
+<dd>unit of measurement for code quality, number of wtf per second during code reviews</dd>
+<dt>WYSIAYG</dt>
+<dd>What You See Is All You Get. See Sarcasm. See Kernighan.</dd>
+<dt>WYSIWYG</dt>
+<dd>what you see is what you get (wizz-zee-wig)</dd>
+<dt><a href="#top" name="X">X</a></dt>
+<dd></dd>
+<dt>XA</dt>
+<dd>eXtended Architecture</dd>
+<dt>XHR</dt>
+<dd>See XMLHttpRequest.</dd>
+<dt>XML</dt>
+<dd>eXtensible Markup Language. Advantage often mentioned is that it is readable by both humans as well as computers. Not often mentioned is that both humans and computers have a hard time reading it.</dd>
+<dt>XMLHttpRequest</dt>
+<dd>an API available to web browser scripting languages such as JavaScript. It is used to send HTTP or HTTPS requests to a web server and load the server response data back into the script. See Ajax.</dd>
+<dt>xmlns</dt>
+<dd>XML Name Space. (See XML)</dd>
+<dt>XMPP</dt>
+<dd>Extensible Messaging and Presence Protocol</dd>
+<dt>XOP</dt>
+<dd> XML-binary Optimized Packaging. See MTOM.</dd>
+<dt>XP</dt>
+<dd>eXtreme Programming</dd>
+<dt>XSLT</dt>
+<dd>Extensible Stylesheet Language Transformations, schemas used for transforming xml docs into other xml docs or other formats like xhtml and pdf, an example is Apache Xalan.</dd>
+<dt><a href="#top" name="Y">Y</a></dt>
+<dd></dd>
+<dt>YAGNI</dt>
+<dd>You Ain't Gonna Need It, also known as 'When in doubt, leave it out.'</dd>
+<dt><a href="#top" name="Z">Z</a></dt>
+<dd></dd>  </dl>
