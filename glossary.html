@@ -112,6 +112,8 @@ Collection of abbreviations and things that I've come across in my daily work. J
 <dd>blueprint or prototype from which objects are created (instantiated).</dd>
 <dt>Class Invariant</dt>
 <dd>an invariant used to constrain objects of a class. Methods of the class should preserve the invariant. The class invariant constrains the state stored in the object. In other words, class invariants make sure the state of an object stays consistent during the lifetime of the object.</dd>
+<dt>classpath hell</dt>
+<dd>also known as jar hell, or the more general: dependency hell. Dependencies in running java programs are only resolved when they are accessed. The class file cannot be found (NoClassDefFoundError) or worse, the same class exists in several jars and it depends which one is the first in your classpath. The whole thing exacerbated by multiple classloaders.  </dd>
 <dt>clothesline paradox, the</dt>
 <dd>If you put your clothes in the dryer, the energy you use is measured and counted. But if you hang them on the clothesline to be dried in the sun, the energy saved disappears from our accounting. Hence, when you see a graph showing that only a measly 1% (or so) of energy created is solar energy, remember the clothesline.</dd>
 <dt>CMIS</dt><dd>Content Management Interoperability Services, standard deﬁnes a limited superset that can be used by applications to work with one or more Content Management repositories/systems. </dd>
